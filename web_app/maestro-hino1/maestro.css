@@ -1,0 +1,49 @@
+#maestroHino1Panel[hidden]{display:none!important}
+#maestroHino1Panel{position:relative;inset:auto;width:calc(100% - 16px);max-width:1100px;margin:0 auto 6px;box-sizing:border-box;overflow:hidden;border:1px solid #b1c1cb;border-radius:10px;background:#f5f8fa;color:#17334a;font-family:Arial,sans-serif;touch-action:pan-y;--maestroDockFigureHeight:clamp(95px,14dvh,125px)}
+#maestroHino1Panel .maestroHino1Head{display:flex;align-items:center;gap:8px;padding:4px 7px;background:#edf3f7}
+#maestroHino1Panel .maestroHino1Head label{font:bold 11px Arial;color:#17334a}
+#maestroHino1Panel select{flex:1;min-width:0;height:28px;padding:2px 7px;border:1px solid #9aafbc;border-radius:6px;background:#fff;color:#17334a;font:bold 12px Arial;touch-action:manipulation}
+#maestroHino1Panel button{display:grid;place-items:center;width:29px;min-width:29px;height:27px;padding:0;border:1px solid #9aafbc;border-radius:6px;background:#fff;color:#17334a;font-size:20px;line-height:1;touch-action:manipulation}
+#maestroHino1Panel[data-view-mode=metronome] button,#maestroHino1Panel[data-view-mode=metronome] .maestroGuideBody{display:none}
+#maestroHino1Panel .maestroGuideBody{display:flex;justify-content:center;padding:4px;background:#f5f8fa}
+#maestroHino1Panel .maestroVisualGroup{display:flex;flex-direction:column;align-items:center;min-width:140px;gap:2px}
+#maestroHino1Panel .maestroDockLegend{display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.15}
+#maestroHino1Panel .maestroDockLegend strong{font:bold 11px Arial;color:#17334a;letter-spacing:.3px}
+#maestroHino1Panel .maestroDockLegend span{font:bold 9px Arial;color:#9b6500}
+#maestroHino1Panel .maestroDockLegend em{font:normal bold 10px Arial;color:#17334a;min-height:12px}
+#maestroHino1Panel .maestroHino1Stage{position:relative;height:var(--maestroDockFigureHeight);width:calc(var(--maestroDockFigureHeight)*.72);background:#eef1f4;border-radius:4px;overflow:hidden}
+#maestroHino1Panel canvas{display:block;width:100%;height:100%;object-fit:contain}
+#maestroHino1Panel [role=status]{position:absolute;inset:0;display:grid;place-items:center;padding:5px;color:#17334a;font-size:10px;text-align:center}
+#maestroHino1Panel [role=status][hidden],#maestroHino1Panel canvas[hidden],#maestroHino1Panel.minimized .maestroGuideBody{display:none}
+body.maestroDockActive.maestroOnlyDock #visualMetronomePanel{display:none!important}
+body.maestroDockActive #scoreWrap{height:var(--maestroDockScoreHeight,50vh)!important;min-height:0!important;max-height:none!important}
+
+/* Maestro centered at full panel height, legend alongside. */
+#maestroHino1Panel[data-view-mode=maestro] .maestroHino1Head{position:relative;z-index:2;background:transparent;pointer-events:none}
+#maestroHino1Panel[data-view-mode=maestro] .maestroHino1Head>*{pointer-events:auto}
+#maestroHino1Panel[data-view-mode=maestro] select{flex:0 1 90px}
+#maestroHino1Panel[data-view-mode=maestro] button{margin-left:auto}
+#maestroHino1Panel[data-view-mode=maestro] .maestroVisualGroup{height:calc(var(--maestroDockFigureHeight) + 39px);width:100%;min-width:0}
+#maestroHino1Panel[data-view-mode=maestro] .maestroDockLegend{position:absolute;left:7px;top:42px;width:115px;z-index:1;text-align:center}
+#maestroHino1Panel[data-view-mode=maestro] .maestroHino1Stage{position:absolute;top:4px;bottom:4px;left:50%;transform:translateX(-50%);height:auto;width:calc((var(--maestroDockFigureHeight) + 75px)*.72)}
+#maestroHino1Panel[data-view-mode=maestro].minimized .maestroVisualGroup{height:0}
+
+body.maestroDockActive.maestroPlaybackCompact header>.titulo{display:none!important}
+body.maestroDockActive.maestroPlaybackCompact.maestroOnlyDock #maestroHino1Panel{--maestroDockFigureHeight:clamp(107px,15.5dvh,140px)}
+
+body.maestroDockActive.maestroPlaybackCompact:not(.mobileSettingsOpen) header{height:0!important;min-height:0!important;padding:0!important;border:0!important;gap:0!important}
+
+/* Continuous backdrop matched to the rendered conductor. */
+#maestroHino1Panel[data-view-mode=maestro]{background:linear-gradient(180deg,#a4a8ad 0%,#a7abb0 20%,#a9adb1 40%,#aeb2b6 60%,#cacccd 80%,#eaebec 100%);border-color:#949da6}
+#maestroHino1Panel[data-view-mode=maestro] .maestroGuideBody{background:transparent}
+#maestroHino1Panel[data-view-mode=maestro] .maestroHino1Stage{background:transparent;border-radius:0}
+#maestroHino1Panel[data-view-mode=maestro] canvas{mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent)}
+#maestroHino1Panel[data-view-mode=maestro] .maestroDockLegend strong,
+#maestroHino1Panel[data-view-mode=maestro] .maestroDockLegend span,
+#maestroHino1Panel[data-view-mode=maestro] .maestroDockLegend em,
+#maestroHino1Panel[data-view-mode=maestro] .maestroHino1Head label{color:#071f39;text-shadow:0 1px 1px rgba(255,255,255,.8)}
+
+#maestroHino1Panel #maestroDynamicLabel{font:normal bold 9px Arial;color:#071f39;min-height:10px}
+#maestroHino1Panel #maestroDynamicLabel[hidden]{display:none}
+
+#maestroHino1Panel #maestroBeatLabel{display:block;font:bold 18px Arial;line-height:20px;color:#071f39}

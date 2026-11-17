@@ -1,0 +1,8546 @@
+{
+  "titulo": "Banco de acordes de violão",
+  "versao": "2.0",
+  "afinacao": [
+    "E2",
+    "A2",
+    "D3",
+    "G3",
+    "B3",
+    "E4"
+  ],
+  "ordem_cordas": "6ª grave até 1ª aguda",
+  "observacao": "Prioriza acordes na primeira região do braço. 0 = corda solta; null = não tocar; casas_6_a_1 ordenadas da sexta à primeira corda. Alguns sustenidos precisam pestana; forma principal vem primeiro.",
+  "total_acordes": 84,
+  "acordes": [
+    {
+      "id": "C",
+      "nome": "Dó maior",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "C",
+      "notas": [
+        "C",
+        "E",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            2,
+            0,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            2,
+            0,
+            1,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Cm",
+      "nome": "Dó menor",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Cm",
+      "notas": [
+        "C",
+        "D#",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            5,
+            5,
+            4,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 5
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 3
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            0,
+            1,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        5,
+        5,
+        4,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C7",
+      "nome": "Dó setima",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "C7",
+      "notas": [
+        "C",
+        "E",
+        "G",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            2,
+            3,
+            1,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            5,
+            3,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        2,
+        3,
+        1,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Cm7",
+      "nome": "Dó menor setima",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Cm7",
+      "notas": [
+        "C",
+        "D#",
+        "G",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            5,
+            3,
+            4,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 3
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            3,
+            1,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        5,
+        3,
+        4,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Cmaj7",
+      "nome": "Dó maior setima",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Cmaj7",
+      "notas": [
+        "C",
+        "E",
+        "G",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            2,
+            0,
+            0,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Cdim",
+      "nome": "Dó diminuto",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Cdim",
+      "notas": [
+        "C",
+        "D#",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            5,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 5
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            5,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 5
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        1,
+        5,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Cdim7",
+      "nome": "Dó diminuto setima",
+      "fundamental": "C",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Cdim7",
+      "notas": [
+        "C",
+        "D#",
+        "F#",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            3,
+            1,
+            2,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        3,
+        1,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#",
+      "nome": "Dó sustenido maior",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "maior",
+      "simbolo": "C#",
+      "notas": [
+        "C#",
+        "F",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            2,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            2,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        3,
+        1,
+        2,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#m",
+      "nome": "Dó sustenido menor",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "menor",
+      "simbolo": "C#m",
+      "notas": [
+        "C#",
+        "E",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            1,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            1,
+            2,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        2,
+        1,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#7",
+      "nome": "Dó sustenido setima",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "setima",
+      "simbolo": "C#7",
+      "notas": [
+        "C#",
+        "F",
+        "G#",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            0,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        3,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#m7",
+      "nome": "Dó sustenido menor setima",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "menor_setima",
+      "simbolo": "C#m7",
+      "notas": [
+        "C#",
+        "E",
+        "G#",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            1,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            1,
+            0,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#maj7",
+      "nome": "Dó sustenido maior setima",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "maior_setima",
+      "simbolo": "C#maj7",
+      "notas": [
+        "C#",
+        "F",
+        "G#",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            3,
+            1,
+            1,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        3,
+        1,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#dim",
+      "nome": "Dó sustenido diminuto",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "diminuto",
+      "simbolo": "C#dim",
+      "notas": [
+        "C#",
+        "E",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            0,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            0,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        2,
+        0,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "C#dim7",
+      "nome": "Dó sustenido diminuto setima",
+      "fundamental": "C#",
+      "equivalente_bemol": "Db",
+      "tipo": "diminuto_setima",
+      "simbolo": "C#dim7",
+      "notas": [
+        "C#",
+        "E",
+        "G",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            2,
+            3,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            4,
+            5,
+            3,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        4,
+        2,
+        3,
+        2,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D",
+      "nome": "Ré maior",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "D",
+      "notas": [
+        "D",
+        "F#",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            2,
+            3,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            2,
+            3,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Dm",
+      "nome": "Ré menor",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Dm",
+      "notas": [
+        "D",
+        "F",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            2,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            2,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D7",
+      "nome": "Ré setima",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "D7",
+      "notas": [
+        "D",
+        "F#",
+        "A",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Dm7",
+      "nome": "Ré menor setima",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Dm7",
+      "notas": [
+        "D",
+        "F",
+        "A",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Dmaj7",
+      "nome": "Ré maior setima",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Dmaj7",
+      "notas": [
+        "D",
+        "F#",
+        "A",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            2,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            2,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        2,
+        2,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Ddim",
+      "nome": "Ré diminuto",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Ddim",
+      "notas": [
+        "D",
+        "F",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            1,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            1,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        1,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Ddim7",
+      "nome": "Ré diminuto setima",
+      "fundamental": "D",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Ddim7",
+      "notas": [
+        "D",
+        "F",
+        "G#",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            0,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            5,
+            0,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        0,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#",
+      "nome": "Ré sustenido maior",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "maior",
+      "simbolo": "D#",
+      "notas": [
+        "D#",
+        "G",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            3,
+            4,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            1,
+            0,
+            null,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        3,
+        4,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#m",
+      "nome": "Ré sustenido menor",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "menor",
+      "simbolo": "D#m",
+      "notas": [
+        "D#",
+        "F#",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            3,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            1,
+            null,
+            null,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        3,
+        4,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#7",
+      "nome": "Ré sustenido setima",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "setima",
+      "simbolo": "D#7",
+      "notas": [
+        "D#",
+        "G",
+        "A#",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            3,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            1,
+            0,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        3,
+        2,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#m7",
+      "nome": "Ré sustenido menor setima",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "menor_setima",
+      "simbolo": "D#m7",
+      "notas": [
+        "D#",
+        "F#",
+        "A#",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            3,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            1,
+            3,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        3,
+        2,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#maj7",
+      "nome": "Ré sustenido maior setima",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "maior_setima",
+      "simbolo": "D#maj7",
+      "notas": [
+        "D#",
+        "G",
+        "A#",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            3,
+            3,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        3,
+        3,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#dim",
+      "nome": "Ré sustenido diminuto",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "diminuto",
+      "simbolo": "D#dim",
+      "notas": [
+        "D#",
+        "F#",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            2,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            1,
+            2,
+            null,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        2,
+        4,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "D#dim7",
+      "nome": "Ré sustenido diminuto setima",
+      "fundamental": "D#",
+      "equivalente_bemol": "Eb",
+      "tipo": "diminuto_setima",
+      "simbolo": "D#dim7",
+      "notas": [
+        "D#",
+        "F#",
+        "A",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        1,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "E",
+      "nome": "Mi maior",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "E",
+      "notas": [
+        "E",
+        "G#",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            2,
+            1,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Em",
+      "nome": "Mi menor",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Em",
+      "notas": [
+        "E",
+        "G",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "E7",
+      "nome": "Mi setima",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "E7",
+      "notas": [
+        "E",
+        "G#",
+        "B",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            0,
+            1,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Em7",
+      "nome": "Mi menor setima",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Em7",
+      "notas": [
+        "E",
+        "G",
+        "B",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Emaj7",
+      "nome": "Mi maior setima",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Emaj7",
+      "notas": [
+        "E",
+        "G#",
+        "B",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Edim",
+      "nome": "Mi diminuto",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Edim",
+      "notas": [
+        "E",
+        "G",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            1,
+            2,
+            0,
+            null,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            1,
+            2,
+            0,
+            5,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 5
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        1,
+        2,
+        0,
+        null,
+        null
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Edim7",
+      "nome": "Mi diminuto setima",
+      "fundamental": "E",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Edim7",
+      "notas": [
+        "E",
+        "G",
+        "A#",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            0,
+            1,
+            2,
+            0,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 0
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F",
+      "nome": "Fá maior",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "F",
+      "notas": [
+        "F",
+        "A",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            3,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Fm",
+      "nome": "Fá menor",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Fm",
+      "notas": [
+        "F",
+        "G#",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            3,
+            1,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            3,
+            1,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F7",
+      "nome": "Fá setima",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "F7",
+      "notas": [
+        "F",
+        "A",
+        "C",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            1,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            0,
+            1,
+            2,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Fm7",
+      "nome": "Fá menor setima",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Fm7",
+      "notas": [
+        "F",
+        "G#",
+        "C",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Fmaj7",
+      "nome": "Fá maior setima",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Fmaj7",
+      "notas": [
+        "F",
+        "A",
+        "C",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            null,
+            3,
+            2,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        null,
+        3,
+        2,
+        1,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Fdim",
+      "nome": "Fá diminuto",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Fdim",
+      "notas": [
+        "F",
+        "G#",
+        "B"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            2,
+            3,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            2,
+            3,
+            1,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        2,
+        3,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Fdim7",
+      "nome": "Fá diminuto setima",
+      "fundamental": "F",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Fdim7",
+      "notas": [
+        "F",
+        "G#",
+        "B",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            1,
+            2,
+            0,
+            1,
+            0,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 1
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#",
+      "nome": "Fá sustenido maior",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "maior",
+      "simbolo": "F#",
+      "notas": [
+        "F#",
+        "A#",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            4,
+            3,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            4,
+            3,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        1,
+        4,
+        3,
+        2,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#m",
+      "nome": "Fá sustenido menor",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "menor",
+      "simbolo": "F#m",
+      "notas": [
+        "F#",
+        "A",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            4,
+            4,
+            2,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 4
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            4,
+            2,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#7",
+      "nome": "Fá sustenido setima",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "setima",
+      "simbolo": "F#7",
+      "notas": [
+        "F#",
+        "A#",
+        "C#",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            2,
+            3,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            2,
+            3,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        1,
+        2,
+        3,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#m7",
+      "nome": "Fá sustenido menor setima",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "menor_setima",
+      "simbolo": "F#m7",
+      "notas": [
+        "F#",
+        "A",
+        "C#",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#maj7",
+      "nome": "Fá sustenido maior setima",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "maior_setima",
+      "simbolo": "F#maj7",
+      "notas": [
+        "F#",
+        "A#",
+        "C#",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            3,
+            3,
+            2,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            1,
+            3,
+            3,
+            2,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#dim",
+      "nome": "Fá sustenido diminuto",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "diminuto",
+      "simbolo": "F#dim",
+      "notas": [
+        "F#",
+        "A",
+        "C"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            4,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            3,
+            4,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        0,
+        4,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "F#dim7",
+      "nome": "Fá sustenido diminuto setima",
+      "fundamental": "F#",
+      "equivalente_bemol": "Gb",
+      "tipo": "diminuto_setima",
+      "simbolo": "F#dim7",
+      "notas": [
+        "F#",
+        "A",
+        "C",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            2,
+            0,
+            1,
+            2,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 2
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        2,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G",
+      "nome": "Sol maior",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "G",
+      "notas": [
+        "G",
+        "B",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            3,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Gm",
+      "nome": "Sol menor",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Gm",
+      "notas": [
+        "G",
+        "A#",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            5,
+            5,
+            3,
+            3,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 5
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 3
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            0,
+            0,
+            3,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G7",
+      "nome": "Sol setima",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "G7",
+      "notas": [
+        "G",
+        "B",
+        "D",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Gm7",
+      "nome": "Sol menor setima",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Gm7",
+      "notas": [
+        "G",
+        "A#",
+        "D",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            0,
+            0,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            0,
+            3,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        1,
+        0,
+        0,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Gmaj7",
+      "nome": "Sol maior setima",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Gmaj7",
+      "notas": [
+        "G",
+        "B",
+        "D",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            2,
+            0,
+            0,
+            3,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Gdim",
+      "nome": "Sol diminuto",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Gdim",
+      "notas": [
+        "G",
+        "A#",
+        "C#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            5,
+            0,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            5,
+            3,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 5
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        1,
+        5,
+        0,
+        2,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Gdim7",
+      "nome": "Sol diminuto setima",
+      "fundamental": "G",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Gdim7",
+      "notas": [
+        "G",
+        "A#",
+        "C#",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            3,
+            1,
+            2,
+            0,
+            2,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 3
+            },
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        3,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#",
+      "nome": "Sol sustenido maior",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "maior",
+      "simbolo": "G#",
+      "notas": [
+        "G#",
+        "C",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            1,
+            1,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            1,
+            4,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        4
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#m",
+      "nome": "Sol sustenido menor",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "menor",
+      "simbolo": "G#m",
+      "notas": [
+        "G#",
+        "B",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            1,
+            1,
+            0,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            1,
+            4,
+            0,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        2,
+        1,
+        1,
+        0,
+        4
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#7",
+      "nome": "Sol sustenido setima",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "setima",
+      "simbolo": "G#7",
+      "notas": [
+        "G#",
+        "C",
+        "D#",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            1,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            1,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#m7",
+      "nome": "Sol sustenido menor setima",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "menor_setima",
+      "simbolo": "G#m7",
+      "notas": [
+        "G#",
+        "B",
+        "D#",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            1,
+            1,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            1,
+            4,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        2,
+        1,
+        1,
+        0,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#maj7",
+      "nome": "Sol sustenido maior setima",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "maior_setima",
+      "simbolo": "G#maj7",
+      "notas": [
+        "G#",
+        "C",
+        "D#",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            0,
+            1,
+            3
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 3
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            3,
+            1,
+            0,
+            1,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 3
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        3,
+        1,
+        0,
+        1,
+        3
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#dim",
+      "nome": "Sol sustenido diminuto",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "diminuto",
+      "simbolo": "G#dim",
+      "notas": [
+        "G#",
+        "B",
+        "D"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            0,
+            1,
+            0,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            0,
+            1,
+            3,
+            4
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 4
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        2,
+        0,
+        1,
+        0,
+        4
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "G#dim7",
+      "nome": "Sol sustenido diminuto setima",
+      "fundamental": "G#",
+      "equivalente_bemol": "Ab",
+      "tipo": "diminuto_setima",
+      "simbolo": "G#dim7",
+      "notas": [
+        "G#",
+        "B",
+        "D",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            4,
+            2,
+            0,
+            4,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 4
+            },
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        4,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A",
+      "nome": "Lá maior",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "A",
+      "notas": [
+        "A",
+        "C#",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            2,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Am",
+      "nome": "Lá menor",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Am",
+      "notas": [
+        "A",
+        "C",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            2,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A7",
+      "nome": "Lá setima",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "A7",
+      "notas": [
+        "A",
+        "C#",
+        "E",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            0,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Am7",
+      "nome": "Lá menor setima",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Am7",
+      "notas": [
+        "A",
+        "C",
+        "E",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            0,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Amaj7",
+      "nome": "Lá maior setima",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Amaj7",
+      "notas": [
+        "A",
+        "C#",
+        "E",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            1,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            2,
+            1,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Adim",
+      "nome": "Lá diminuto",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Adim",
+      "notas": [
+        "A",
+        "C",
+        "D#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            1,
+            2,
+            1,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            5,
+            0,
+            1,
+            2,
+            1,
+            5
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 5
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 5
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        1,
+        2,
+        1,
+        null
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Adim7",
+      "nome": "Lá diminuto setima",
+      "fundamental": "A",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Adim7",
+      "notas": [
+        "A",
+        "C",
+        "D#",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            5,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 6,
+              "casa": 5
+            },
+            {
+              "corda": 5,
+              "casa": 0
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 1
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#",
+      "nome": "Lá sustenido maior",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "maior",
+      "simbolo": "A#",
+      "notas": [
+        "A#",
+        "D",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            0,
+            3,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            3,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        0,
+        3,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#m",
+      "nome": "Lá sustenido menor",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "menor",
+      "simbolo": "A#m",
+      "notas": [
+        "A#",
+        "C#",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            3,
+            2,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            3,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#7",
+      "nome": "Lá sustenido setima",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "setima",
+      "simbolo": "A#7",
+      "notas": [
+        "A#",
+        "D",
+        "F",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            0,
+            1,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            1,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        0,
+        1,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#m7",
+      "nome": "Lá sustenido menor setima",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "menor_setima",
+      "simbolo": "A#m7",
+      "notas": [
+        "A#",
+        "C#",
+        "F",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            1,
+            2,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            1,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        3,
+        1,
+        2,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#maj7",
+      "nome": "Lá sustenido maior setima",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "maior_setima",
+      "simbolo": "A#maj7",
+      "notas": [
+        "A#",
+        "D",
+        "F",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            0,
+            2,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            3,
+            2,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 3
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        0,
+        2,
+        3,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#dim",
+      "nome": "Lá sustenido diminuto",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "diminuto",
+      "simbolo": "A#dim",
+      "notas": [
+        "A#",
+        "C#",
+        "E"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            2,
+            3,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            2,
+            3,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        2,
+        3,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "A#dim7",
+      "nome": "Lá sustenido diminuto setima",
+      "fundamental": "A#",
+      "equivalente_bemol": "Bb",
+      "tipo": "diminuto_setima",
+      "simbolo": "A#dim7",
+      "notas": [
+        "A#",
+        "C#",
+        "E",
+        "G"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            },
+            {
+              "corda": 1,
+              "casa": 0
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            1,
+            2,
+            0,
+            2,
+            null
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 1
+            },
+            {
+              "corda": 4,
+              "casa": 2
+            },
+            {
+              "corda": 3,
+              "casa": 0
+            },
+            {
+              "corda": 2,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "B",
+      "nome": "Si maior",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "maior",
+      "simbolo": "B",
+      "notas": [
+        "B",
+        "D#",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            4,
+            4,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            1,
+            4,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        4,
+        4,
+        4,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Bm",
+      "nome": "Si menor",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "menor",
+      "simbolo": "Bm",
+      "notas": [
+        "B",
+        "D",
+        "F#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            4,
+            4,
+            3,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            4,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        4,
+        4,
+        3,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "B7",
+      "nome": "Si setima",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "setima",
+      "simbolo": "B7",
+      "notas": [
+        "B",
+        "D#",
+        "F#",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            1,
+            2,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            1,
+            2,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Bm7",
+      "nome": "Si menor setima",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "menor_setima",
+      "simbolo": "Bm7",
+      "notas": [
+        "B",
+        "D",
+        "F#",
+        "A"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            4,
+            2,
+            3,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            2,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 2
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Bmaj7",
+      "nome": "Si maior setima",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "maior_setima",
+      "simbolo": "Bmaj7",
+      "notas": [
+        "B",
+        "D#",
+        "F#",
+        "A#"
+      ],
+      "intervalos_semitons": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            4,
+            3,
+            4,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 4
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 4
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 2
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            1,
+            3,
+            0,
+            2
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 1
+            },
+            {
+              "corda": 3,
+              "casa": 3
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 2
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Bdim",
+      "nome": "Si diminuto",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "diminuto",
+      "simbolo": "Bdim",
+      "notas": [
+        "B",
+        "D",
+        "F"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            4,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            4,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 4
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        0,
+        4,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    },
+    {
+      "id": "Bdim7",
+      "nome": "Si diminuto setima",
+      "fundamental": "B",
+      "equivalente_bemol": null,
+      "tipo": "diminuto_setima",
+      "simbolo": "Bdim7",
+      "notas": [
+        "B",
+        "D",
+        "F",
+        "G#"
+      ],
+      "intervalos_semitons": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "diagramas": [
+        {
+          "forma": "primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 0
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        },
+        {
+          "forma": "alternativa_primeira_regiao",
+          "casas_6_a_1": [
+            null,
+            2,
+            0,
+            1,
+            3,
+            1
+          ],
+          "casas_legenda": "null = não tocar, 0 = corda solta",
+          "posicoes": [
+            {
+              "corda": 5,
+              "casa": 2
+            },
+            {
+              "corda": 4,
+              "casa": 0
+            },
+            {
+              "corda": 3,
+              "casa": 1
+            },
+            {
+              "corda": 2,
+              "casa": 3
+            },
+            {
+              "corda": 1,
+              "casa": 1
+            }
+          ],
+          "casa_base": 1
+        }
+      ],
+      "diagrama_principal": [
+        null,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "regiao": "primeiras casas (preferencialmente até a 5ª)"
+    }
+  ],
+  "total_diagramas": 168
+}

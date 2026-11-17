@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toque Fácil - Digitações</title>
+  <link rel="stylesheet" href="style.css?v=67-menu-bpm-tom">
+  <script src="lib/Midi.min.js"></script>
+  <script src="lib/Tone.js"></script>
+  <script src="lib/jspdf.umd.min.js"></script>
+  <script src="lib/jszip.min.js"></script>
+  <script src="lib/opensheetmusicdisplay.min.js"></script>
+</head>
+<body>
+  <main id="app" class="layout-instagram">
+    <div class="pdf-saved-notice" id="pdfSavedNotice">✓ PDF SALVO EM DOWNLOADS</div>
+    <header class="header">
+      <div>
+        <h1>Toque Fácil</h1>
+        <p id="subtitle">Digitações guiadas para estudo musical</p>
+      </div>
+      <div id="stateBadge" class="state-badge">sem MIDI</div>
+    </header>
+    <div class="tempo-key-row">
+      <button id="hymnMenuBtn" class="hymn-menu-btn" type="button" aria-label="Escolher hino">☰</button>
+      <div class="instrument-bpm-control" aria-label="Controle de BPM">
+        <button id="entryBpmDownBtn" type="button">−</button>
+        <span>BPM <strong id="entryBpmValue">120</strong></span>
+        <button id="entryBpmUpBtn" type="button">+</button>
+      </div>
+      <div class="instrument-key-display">TOM <strong id="entryKeyValue">C</strong></div>
+    </div>
+
+    <div id="hymnMenuBackdrop" class="hymn-menu-backdrop"></div>
+    <aside id="hymnMenuDrawer" class="hymn-menu-drawer" aria-hidden="true">
+      <div class="hymn-menu-top">
+        <div><strong>ESCOLHER HINO</strong><span>Digitações do Hino 2 ao 480</span></div>
+        <button id="hymnMenuClose" type="button" aria-label="Fechar">×</button>
+      </div>
+      <input id="hymnMenuSearch" type="search" inputmode="numeric" placeholder="Digite o número ou nome do hino">
+      <div id="hymnMenuList" class="hymn-menu-list"></div>
+    </aside>
+
+    <section class="toolbar" aria-label="Controles principais">
+      <label class="control file-control">
+        <span>Arquivo MIDI ou MusicXML</span>
+        <input id="midiFile" type="file" accept=".mid,.midi,.xml,.musicxml,.mxl">
+      </label>
+
+      <label class="control piano-facil-control">
+        <span>Hinos com digitação</span>
+        <select id="pianoFacilSelect">
+          <option value="">Escolher hino</option>
+        </select>
+      </label>
+
+      <label class="control instrument-control">
+        <span>Instrumento</span>
+        <select id="instrumentSelect">
+          <option value="violao">Violao</option>
+          <option value="viola">Viola caipira</option>
+          <option value="piano1">Piano 1 mao</option>
+        </select>
+      </label>
+
+      <label class="control layout-control">
+        <span>Layout</span>
+        <select id="layoutSelect">
+          <option value="instagram">Celular cordas</option>
+          <option value="piano-instagram">Celular piano 1 mao</option>
+        </select>
+      </label>
+
+      <label class="control sound-control">
+        <span>Som</span>
+        <select id="soundSelect">
+          <option value="clean">MIDI limpo</option>
+          <option value="piano">Piano synth</option>
+          <option value="acoustic">Violao real aco</option>
+          <option value="nylon">Violao real nylon</option>
+          <option value="pluck">Violao synth</option>
+          <option value="violaCaipira">Viola caipira real</option>
+          <option value="clarinete">Clarinete synth</option>
+          <option value="flautaTransversal">Flauta transversal synth</option>
+        </select>
+      </label>
+
+      <div class="control compact-control bpm-control" title="BPM detectado do arquivo">
+        <span>BPM</span>
+        <div class="bpm-stepper">
+          <button id="bpmDownBtn" type="button" title="Diminuir BPM">-</button>
+          <strong id="bpmValue">120</strong>
+          <button id="bpmUpBtn" type="button" title="Aumentar BPM">+</button>
+        </div>
+      </div>
+
+      <label class="control volume-control">
+        <span>Volume</span>
+        <input id="volumeRange" type="range" min="-18" max="12" value="0" step="1">
+      </label>
+
+      <label class="switch-control loop-control" title="Repetir musica ao terminar">
+        <input id="loopToggle" type="checkbox">
+        <span>Loop</span>
+      </label>
+
+      <label class="switch-control base-control" title="Tocar base dedilhada das cifras do MusicXML">
+        <input id="baseToggle" type="checkbox">
+        <span>Base</span>
+      </label>
+
+      <button id="extrasToggle" class="extras-toggle" type="button" title="Minimizar controles extras">Menu</button>
+    </section>
+
+    <section class="actions" aria-label="Transporte">
+      <button id="playBtn" type="button" title="Tocar">Play</button>
+      <button id="pauseBtn" type="button" title="Pausar">Pause</button>
+      <button id="stopBtn" type="button" title="Parar">Stop</button>
+      <button id="homeBtn" type="button" title="Voltar ao início">INÍCIO</button>
+      <button id="nextBtn" type="button" title="Proxima nota">Next</button>
+      <button id="pdfBtn" type="button" title="Baixar PDF das digitações">PDF</button>
+      <button id="miniLoopBtn" class="mini-toggle-btn" type="button" title="Loop">Loop</button>
+      <button id="miniBaseBtn" class="mini-toggle-btn" type="button" title="Base">Base</button>
+      <div class="mini-bpm-control" title="Ajustar BPM">
+        <button id="miniBpmDownBtn" type="button" title="Diminuir BPM">↓</button>
+        <strong id="miniBpmValue">120</strong>
+        <button id="miniBpmUpBtn" type="button" title="Aumentar BPM">↑</button>
+        <span>bpm</span>
+      </div>
+      <div class="chord-volume-control" title="Volume das cifras">
+        <button id="chordVolDownBtn" type="button" title="Baixar volume das cifras">↓</button>
+        <strong id="chordVolValue">0</strong>
+        <button id="chordVolUpBtn" type="button" title="Subir volume das cifras">↑</button>
+        <span>cifra</span>
+      </div>
+    </section>
+
+    <section id="fretboard" class="fretboard" aria-label="Braco do violao">
+      <div class="nut"></div>
+    </section>
+
+    <section id="scorePanel" class="score-panel" aria-label="Partitura">
+      <div id="scoreCanvas" class="score-canvas"></div>
+      <div id="scoreCursor" class="score-cursor" aria-hidden="true"></div>
+    </section>
+
+    <section class="study-panel" aria-label="Digitacao e cifra">
+      <div class="lyrics-box">
+        <h2>Digitacao</h2>
+        <div id="lyricLine" class="lyric-line">Escolha um instrumento e um hino.</div>
+        <div id="fingeringLine" class="fingering-line">A casa, corda, dedo ou tecla aparecem aqui.</div>
+      </div>
+      <aside class="chord-box">
+        <h2>Cifra</h2>
+        <div id="chordName" class="chord-name">--</div>
+        <div id="chordShape" class="chord-shape">Base aguardando cifra.</div>
+      </aside>
+    </section>
+
+    <div class="progress-track" aria-label="Progresso">
+      <div id="progressBar"></div>
+    </div>
+
+    <section id="sequence" class="sequence" aria-label="Sequencia de digitacao"></section>
+
+    <footer id="status" class="status">Abra um arquivo MIDI para comecar.</footer>
+  </main>
+
+  <script src="app.js?v=90-flauta-doce"></script>
+</body>
+</html>
